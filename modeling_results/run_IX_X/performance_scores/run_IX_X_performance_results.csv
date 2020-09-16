@@ -1,0 +1,15 @@
+Subsampling Type,Model,Value,AUC (training),AUC (test),accuracy (training),accuracy (test),average class accuracy (training),average class accuracy (test),f1 (training),f1 (test)
+none,GLM,median,0.79,0.58,0.75,0.55,0.74,0.54,0.77,0.56
+none,GLM,iqr,0.04,0.14,0.05,0.15,0.05,0.14,0.05,0.16
+none,Lasso,median,0.79,0.58,0.75,0.55,0.74,0.54,0.77,0.56
+none,Lasso,iqr,0.04,0.14,0.05,0.15,0.05,0.14,0.05,0.16
+none,ElasticNet,median,0.61,0.60,0.54,0.45,0.44,0.40,0.46,0.44
+none,ElasticNet,iqr,0.13,0.14,0.14,0.15,0.19,0.13,0.26,0.22
+none,Catboost,median,0.87,0.59,0.75,0.65,0.74,0.64,0.77,0.66
+none,Catboost,iqr,0.05,0.09,0.03,0.05,0.04,0.04,0.01,0.06
+none,MLP,median,0.54,0.52,0.49,0.45,0.48,0.39,0.46,0.35
+none,MLP,iqr,0.05,0.04,0.06,0.05,0.05,0.09,0.04,0.10
+none,SVMC,median,0.80,0.68,0.75,0.55,0.73,0.49,0.78,0.61
+none,SVMC,iqr,0.05,0.16,0.00,0.15,0.01,0.19,0.00,0.11
+none,NB,median,0.80,0.70,0.65,0.60,0.51,0.40,0.73,0.69
+none,NB,iqr,0.04,0.18,0.03,0.20,0.11,0.40,0.00,0.11

@@ -130,7 +130,7 @@ for subs in subsampling_types:
                 )
 
                 model.load_model(path_to_model)
-
+                print(path_to_model)
                 # Get model weights for linear classifiers directly.
                 if mdl in ["GLM", "Lasso", "ElasticNet"]:
                     weights = [

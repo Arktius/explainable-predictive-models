@@ -1,0 +1,1 @@
+{"batch_size": 64, "dropout_rate": 0.2, "l1_ratio": 0.001, "learning_rate": 0.001, "num_neurons": 10}
